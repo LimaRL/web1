@@ -79,6 +79,7 @@
     <!-- footer -->
     <?php include "footer.php"; ?>
     <!-- .footer -->
+    <script src="js/youtube.js"></script>
 </body>
 
 </html>

@@ -81,7 +81,9 @@ ul, p{
     -webkit-transition: all 1s; /* Safari and Chrome */
     -o-transition: all 1s; /* Opera */
 }
-
+.menu-mobile{
+    display: none;
+}
 .nav-top{
     position: fixed;
     width: 100%;
@@ -414,6 +416,14 @@ footer h3{
     }
     footer h3 {
         font-size: 14px;
+    }
+    .menu-mobile{
+        position: fixed;
+        width: 80%;
+        z-index: 9999;
+        background: black;
+        height: 100%;
+        top: 0;
     }
  }
 

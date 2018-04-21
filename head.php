@@ -6,6 +6,5 @@
 
     <!-- style -->
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/youtube.js"></script>
 
 </head>
