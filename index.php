@@ -15,61 +15,77 @@
     <!-- .banner -->
     <!-- categorias -->
     <section id="categoria">
-        <h3>Categorias</h3>
+        <h3>Departamentos</h3>
         <ul class="_flex _flexflow _space-around categoria">
             <li class="categoria-item" id="first-item">
                 <a href="departamento.php">
-                    <div>
-                        <img src="image/furniture/sofa-laranja.png" alt="">
+                    <div class="info-departamento sofa-laranja">
+                        <div class="titulo-departamento">
+                            <h5>titulo</h5>
+                        </div>
                     </div>
                 </a>
             </li>
             <li class="categoria-item ">
-                <a href="#">
-                    <div>
-                        <img src="image/furniture/bed.png" alt="">
+                <a href="departamento.php">
+                    <div class="info-departamento bed">
+                        <div class="titulo-departamento">
+                            <h5>titulo</h5>
+                        </div>
                     </div>
                 </a>
             </li>
             <li class="categoria-item ">
-                <a href="#">
-                    <div>
-                        <img src="image/furniture/box.png" alt="">
+                <a href="departamento.php">
+                    <div class="info-departamento box">
+                        <div class="titulo-departamento">
+                            <h5>titulo</h5>
+                        </div>
                     </div>
                 </a>
             </li>
             <li class="categoria-item ">
-                <a href="#">
-                    <div>
-                        <img src="image/furniture/chair-white.png" alt="">
+                <a href="departamento.php">
+                    <div class="info-departamento chair-white">
+                        <div class="titulo-departamento">
+                            <h5>titulo</h5>
+                        </div>
                     </div>
                 </a>
             </li>
             <li class="categoria-item ">
-                <a href="#">
-                    <div>
-                        <img src="image/furniture/mesa-vidro.png" alt="">
+                <a href="departamento.php">
+                    <div class="info-departamento mesa-vidro">
+                        <div class="titulo-departamento">
+                            <h5>titulo</h5>
+                        </div>
                     </div>
                 </a>
             </li>
             <li class="categoria-item ">
-                <a href="#">
-                    <div>
-                        <img src="image/furniture/table-chair.png" alt="">
+                <a href="departamento.php">
+                    <div class="info-departamento table-chair">
+                        <div class="titulo-departamento">
+                            <h5>titulo</h5>
+                        </div>
                     </div>
                 </a>
             </li>
             <li class="categoria-item ">
-                <a href="#">
-                    <div>
-                        <img src="image/furniture/table-chair2.png" alt="">
+                <a href="departamento.php">
+                    <div class="info-departamento table-chair2">
+                        <div class="titulo-departamento">
+                            <h5>titulo</h5>
+                        </div>
                     </div>
                 </a>
             </li>
             <li class="categoria-item ">
-                <a href="#">
-                    <div>
-                        <img src="image/furniture/table.png" alt="">
+                <a href="departamento.php">
+                    <div class="info-departamento table">
+                        <div class="titulo-departamento">
+                            <h5>titulo</h5>
+                        </div>
                     </div>
                 </a>
             </li>
@@ -81,5 +97,4 @@
     <!-- .footer -->
     <script src="js/youtube.js"></script>
 </body>
-
 </html>

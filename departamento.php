@@ -1,3 +1,6 @@
+<?php 
+$departamento = "nome do departamento";
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
     <!-- menu -->
@@ -7,9 +10,21 @@
     <!-- menu -->
     <?php include "menu.php"; ?>
     <!-- .menu -->
+    <!-- breacrumb -->
+    <?php include "breadcrumb.php"; ?>
+    <!-- .breacrumb -->
     <!-- categorias -->
     <section id="categoria">
-        <h3>Departamento</h3>
+        <h3>
+            <?php 
+                if(!$departamento){
+                    echo "Departamento";
+                }
+                else{
+                    echo $departamento;
+                }
+            ?>
+        </h3>
         <ul class="_flex _flexflow _space-around categoria">
             <li class="categoria-item" id="first-item">
                 <a href="produto.php">

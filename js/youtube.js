@@ -7,11 +7,13 @@ var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 var h;
-if (window.innerHeight < 650) {
-  h = window.innerHeight - ((window.innerHeight * 60)/100);
-} else {
-  h = window.innerHeight + 150;
+if (screen.width < 480) {
+  h = screen.height - ((screen.height * 50)/100);
+}else {
+  h = screen.height;
 }
+
+console.log(h);
 
 // 3. This function creates an <iframe> (and YouTube player)
 //    after the API code downloads.

@@ -1,3 +1,6 @@
+<?php 
+$produto = "Nome do produto";
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
     <!-- menu -->
@@ -7,15 +10,21 @@
     <!-- menu -->
     <?php include "menu.php"; ?>
     <!-- .menu -->
-    <!-- banner -->
-    <div class="banner-video">
-        <div class="protected-play" onclick="call_menu()"></div>
-        <div id="player"></div>
-    </div>
-    <!-- .banner -->
+    <!-- breacrumb -->
+    <?php include "breadcrumb.php"; ?>
+    <!-- .breacrumb -->
     <!-- categorias -->
     <section id="categoria">
-        <h3>Produto</h3>
+        <h3>
+            <?php 
+                if(!$produto){
+                    echo "Departamento";
+                }
+                else{
+                    echo $produto;
+                }
+            ?>
+        </h3>
         <div >
     
         </div>
