@@ -25,9 +25,26 @@ $produto = "Nome do produto";
                 }
             ?>
         </h3>
-        <div >
-    
+        
+        <div class="box_produto-cm">
+            <div class="box_descri_produto">
+                <p>descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição </p>
+            </div>
+            <div class="_flex">
+                <div class="box_foto_produto">
+                    <img class="foto_produto" src="image/furniture/sofa-laranja.png">
+                </div>
+                <div>
+                    <h3>asdasdasd</h3>
+                    <p>asidjakjsasdasdasdasd
+                        fsaddfasdfa
+                    </p>
+
+                </div>
+            </div>
+                
         </div>
+        
     </section>
     <!-- .categorias -->
     <!-- footer -->

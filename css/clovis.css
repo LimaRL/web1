@@ -1,0 +1,48 @@
+.layout_box {
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1999999);
+    border-radius: 5px;
+}
+
+.cart_box{
+    width: 75%;
+    height: 360px;
+    overflow-x: hidden;
+}
+
+.cart_box img{
+    width: 100px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.checkout_box{
+    width: 20%;
+}
+
+.checkout_box input{
+    width: 100%;
+}
+
+.checkout_box button{
+    float: right;
+    background: rgb(255,117,24, 1);
+    border: none;
+    padding: 6px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin: 3px;
+}

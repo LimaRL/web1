@@ -6,5 +6,9 @@
 
     <!-- style -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick-slide.css"/>
+    <link rel="stylesheet" href="css/renan.css"/>
+    <link rel="stylesheet" href="css/clovis.css"/>
+    
 
 </head>

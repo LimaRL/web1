@@ -13,6 +13,69 @@
         <div id="player"></div>
     </div>
     <!-- .banner -->
+    <!-- slider -->
+    <div class="container slider-destaques">
+        <div class="responsive-slider">
+            <div>
+                <img src="image/furniture/sofa-laranja.png" alt="">
+                <p>
+                    <span>R$ 999,99</span>
+                    kjhasdlkjfhasd
+                </p>
+            </div>
+            <div>
+                <img src="image/furniture/sofa-laranja.png" alt="">
+                <p>
+                    <span>R$ 999,99</span>
+                    kjhasdlkjfhasd
+                </p>
+            </div>
+            <div>
+                <img src="image/furniture/sofa-laranja.png" alt="">
+                <p>
+                    <span>R$ 999,99</span>
+                    kjhasdlkjfhasd
+                </p>
+            </div>
+            <div>
+                <img src="image/furniture/sofa-laranja.png" alt="">
+                <p>
+                    <span>R$ 999,99</span>
+                    kjhasdlkjfhasd
+                </p>
+            </div>
+            <div>
+                <img src="image/furniture/sofa-laranja.png" alt="">
+                <p>
+                    <span>R$ 999,99</span>
+                    kjhasdlkjfhasd
+                </p>
+            </div>
+            <div>
+                <img src="image/furniture/sofa-laranja.png" alt="">
+                <p>
+                    <span>R$ 999,99</span>
+                    kjhasdlkjfhasd
+                </p>
+            </div>
+            <div>
+                <img src="image/furniture/sofa-laranja.png" alt="">
+                <p>
+                    <span>R$ 999,99</span>
+                    kjhasdlkjfhasd
+                </p>
+            </div>
+            <div>
+                <img src="image/furniture/sofa-laranja.png" alt="">
+                <p>
+                    <span>R$ 999,99</span>
+                    kjhasdlkjfhasd
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- .slider -->
     <!-- categorias -->
     <section id="categoria">
         <h3>Departamentos</h3>

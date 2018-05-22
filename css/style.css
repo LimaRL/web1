@@ -50,6 +50,9 @@ ul, p{
 ._center{
     align-items: center;
 }
+._end{
+    align-items: end;
+}
 
 /*dropdown*/
 .dropdown {
@@ -184,6 +187,14 @@ ul, p{
     margin-top: -12%
 }
 /*;banner*/
+
+/*slider*/
+.slider-destaques{
+    overflow: hidden;
+}
+.slider-destaques img{
+    width: 100%;
+}
 
 /*categoria*/
 #categoria{
@@ -400,6 +411,23 @@ footer h3{
 }
 
 
+/* vitrines */
+.responsive-slider button{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 15px !important;
+    width: 30px !important;
+    height: 30px !important;
+    z-index: 9999 !important;
+}
+.responsive-slider button:hover{
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+.responsive-slider button.slick-prev {
+    left: -5px !important;
+}
+.responsive-slider button.slick-next{
+    right: -5px !important;
+}
 @media only screen and (max-width: 1199px) {
     .container {
         max-width: 1140px;
@@ -547,6 +575,10 @@ footer h3{
     #categoria {
         padding-top: 50px;
     }
+
+    #categoria.titulo-pagina{
+        padding-top: 0 !important; 
+    }
     .categoria .categoria-item{
         width: 50%;
         height: 190px;
@@ -591,5 +623,19 @@ footer h3{
     }
     .titulo-departamento:hover h5 {
         font-size: 25px !important;
+    }
+    .nav-top.small {
+        height: 60.333px;
+    }
+    .nav-top.small img {
+        width: 80.667px !important;
+    }
+
+    #login .form-login, #cadastro .form-cadastro {
+        width: 100%;
+    }
+
+    .breadcrumb{
+        font-size: 12px !important;
     }
  }
